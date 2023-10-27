@@ -9,9 +9,19 @@ a{
     height: 35px;
     width: 35px;
 }
+.name{
+   /*font-size: 3px;*/
+
+}
+.tag span{
+  font-size: 13px;
+}
+.location, .re-tweets{
+    font-size: 12px;
+}
 svg{
-    height: 45px;
-    width: 45px;
+    height: 38px;
+    width: 38px;
 }
 body{
     background-color: gray;
