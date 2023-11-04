@@ -57,7 +57,7 @@ svg{
     background-color: rgb(220, 228, 231);
 }
 .phone-nav svg{
-    
+
     height: 10px;
     width: 10px; 
 }
@@ -78,4 +78,31 @@ svg{
     overflow: hidden;
     overflow-y: scroll;
     width: 20px;
+}
+.reply:hover{
+
+    background-color: rgb(112, 144, 204);
+}
+.repost:hover{
+
+    background-color:rgb(178, 224, 178);
+}
+.likes:hover{
+
+    background-color:rgb(223, 158, 158) ;
+}
+.view:hover{
+
+    background-color: rgb(130, 202, 202);
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.text-post-input{
+    outline: none;
+    width: 520px;
+}
+.profile-bubble{
+    height: 159px;
+    width: 100%;
 }
