@@ -6,6 +6,16 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-size: 15px;
+    background-color: #FFFFFF;  
+    /* margin-left: 130px;
+    margin-right: 50px; */
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: flex;
+
+   
+}
 .main-hub{
     position: relative;
 }
@@ -13,29 +23,42 @@ a{
     text-decoration: none;
     color: black;
 }
+.Logo-image svg{
+
+    height: 2rem;
+    width: 2rem;
+    
+}
+.Logo-image {
+
+    height: 2rem;
+    width: 24px;
+    margin-left: 6px;
+}
 .profile-image img{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
 }
 .name{
-   /*font-size: 3px;*/
+    font: 15px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 
 }
 .tag span{
-  font-size: 13px;
+  font-size: 15px;
+  color: rgb(83, 100, 113);
+  font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 .location, .re-tweets{
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
-svg{
-    height: 38px;
-    width: 38px;
+.nav-links svg{
+    height: 1.75rem;
+    width:1.75rem;
 }
-.icons svg{
 
-    height: 20px;
-    width: 20px;
-}
 .three-dot-button svg{
 
     height: 25px;
@@ -54,12 +77,57 @@ svg{
 
     height: 18px;
     width: 18px;
+    background: #eff3f4;
 }
+.search-bar{
+   
+    height: 43px;
+    width: 350px;
+    margin: 5px 0px 12px 0px;
+    background-color:  #ffffff;
+   
+}
+.input-group-text{
+    background-color: #eff3f4;
+    height: 44px;
+}
+.search{
+    background: #eff3f4;
+     width: 305px;
+    
+}
+
 /* the hover psuedo class*/
 .nav-links > div:hover{
 
     background-color: rgb(220, 228, 231);
 }
+
+/* phone nav */
+.phone-nav {
+
+    height: 53.5px;
+    width: 382px; 
+    background-color: #FFFFFF;
+}
+.small-screen-nav-icons > div{
+    width: 55.2px;
+    height: 95.5px;
+}
+.phone-nav-home,.phone-nav-search,
+.small-screen-nav-notification,
+.small-screen-nav-massege{
+    width: 95.5px;
+    height: 52.2px;
+}
+.h,.s,.n,.m{
+ width: 42.25px;
+ height: 42.25px;
+ margin: -6px -8px -8px;
+ padding: 8px;
+
+}
+
 .phone-nav svg{
 
     height: 10px;
@@ -67,22 +135,154 @@ svg{
 }
 .nav{
     /*position: fixed;*/
-    width: 290px;
+    width: 354px;
     height: 100vh;
+    /* height: 394px; */
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(128, 0, 53);
+    
+   
+}
+nav{
+    
+    background-color: white;
+    /* height: 574.25px; */
+    width: 354px;
+    padding-left: 75px;
+    background-color: blue;
+}
+.nav-links h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(15,20,25,1.00);
+    /* font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; */
+    font: 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
 }
 .main{
 
-  height:100vh;
-  width: 630px;
-  overflow: hidden;
-  overflow-y: scroll;
+    height:100vh;
+    width: 600px;
+    padding: 0px 16px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: aqua;
+}
+.main-nav{
+    height: 44px;
+    background-color: #ffffff;
+}
+/* Create post section from here */
+.whats-on-your-mind{
+    background-color: red;
+    height: 157px;
+    width: 598px;
+    padding: 4px 0px 0px;
+}
+.whats-on-your-mind-profile-and-input{
+ 
+    padding-top: 12px;
+}
+.whats-on-your-mind-profile-image{
+    margin-right: 12px;
+   
+}
+.whats-on-your-mind-profile-image img{
+    height: 40px;
+    width: 40px;
+}
+.textarea{
+    padding-bottom: 12px;
+}
+.text-post-input{
+    outline: none;
+    width: 508px;
+    height: 35px;
+    padding: 2px 0px;
+    font: 22px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.reply-privacy-link{
+    padding: 0px 0px 12px;
+    width: 508px;
+}
+.reply-privacy-link a{
+    color: rgb(29, 155, 240);
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 0px 12px;
+
+}
+.reply-privacy-link svg{
+    fill: rgb(29, 155, 240);
+    height: 20px;
+    width: 20px;
+    
+}
+.whats-on-your-mind-icons-button{
+    width: 508px;
+}
+.whats-on-your-mind-icons i{
+    margin-right: 7px;
+    fill:rgb(29, 155, 240);
+    
+}
+
+/* Post section from here */
+.profile-name-and-picture{
+    padding: 12px 0px 0px; 
+}
+
+.post-profile-image {
+    margin-right: 12px;
+}
+.post-profile-image img{
+    height: 40px;
+    width: 40px;
+   
+}
+.up{
+    width: 514px;
+    padding: 0px 0px 12px;
+    background-color: palevioletred;
+    line-height: normal;
+}
+.linefirst{
+
+     display: flex;
+     justify-content: center;
+     
+}
+.image img{
+    /* height: 510px;
+    width: 412px; */
+ margin: 12px 0px 0px;
+    max-width: 512px;
+    max-height: 512px;
+}
+
+
+.text{
+    margin-left: 50px;
 }
 .side-bar{
+
     height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
-    width: 20px;
-}
+    width: 370px;
+    padding: auto;
+    margin: 0px 30px;
+    background-color: #ffffff;
+    
+   
+
+     /* border-bottom-color: rgb(247, 249, 249);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; */
+} 
 .reply:hover{
 
     background-color: rgb(112, 144, 204);
@@ -102,11 +302,190 @@ svg{
 ::-webkit-scrollbar{
     width: 0px;
 }
-.text-post-input{
-    outline: none;
-    width: 520px;
-}
+
 .profile-bubble{
-    height: 159px;
+    height: 140px;
     width: 100%;
+   
+}
+.bubble{
+
+    max-width: 243px;
+    min-width: 200px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.bubble:hover{
+    background-color: rgb(220, 228, 231);
+}
+.bubble-user-info{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.following i:hover{
+    background-color: rgb(220, 228, 231);
+}
+.tweet-button{
+    
+   width: 250px;
+   height: 52px;
+   
+}
+.tweet-button button{
+ 
+    width: 217px;
+    height: 52px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+::placeholder{
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font: 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.post-button {
+    min-height: 36px;
+    min-width: 60px;
+    
+    
+}
+.post-button button{
+
+    background-color: rgb(29, 155, 240);
+    font-size: 15px;
+    color: white;
+
+}
+.icons{
+ height: 32px;
+ width: 514px;
+}
+.iterections{
+    margin-left: 9px;
+    width: 70%;
+    margin-top: 10px;
+   
+}
+.iterections > div{
+   width: 111.13px;
+   height: 20px;
+}
+.iterections  span{
+   padding: 0px 8px;
+   
+}
+.b > div{
+    margin-right: 12px;
+}
+
+.reply,.repost,.likes,.view{
+    width: 34.75px;
+    height: 34.75px;
+    margin: -8px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookmarks,.share{
+    width: 34.75px;
+    height: 34.75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grouped-icons{
+    margin-top: 2px;
+}
+.icons svg{
+
+    height: 18.75px;
+    width: 18.75px;
+}
+
+
+.trends-for-you,.who-to-follow{
+   background-color:  #f7f9f9;
+   width: 350px;
+   
+
+   
+
+}
+.see-more a{
+    color: rgb(29, 155, 240);
+}
+
+.for-you{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.following{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gear-icon{
+    width: calc(100%-20%);
+    height: 20px;
+    width: 20px;
+}
+.for-you-and-following{
+    height: 40px;
+    
+}
+
+
+/* .rp{
+    width: 40%;
+}
+.lk{
+    width: 40%;
+}
+.v{
+    width: 40%;
+} */
+
+.terms-and-conditions a{
+    font-size: 13px;
+    color: rgb(83, 100, 113);
+    font-weight: 400;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.terms-and-conditions span{
+ padding: 3px;
+}
+.terms-and-conditions a:hover{
+  
+    text-decoration: underline;
+    text-decoration-color: rgb(83, 100, 113);
+
+}
+.tittle h5{
+
+    font-size: 20px; 
+    font-weight: 700;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgba(15,20,25,1.00);
 }
