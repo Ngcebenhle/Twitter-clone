@@ -238,7 +238,7 @@ a{
 
 .nav{
     /*position: fixed;*/
-    width: 374px;
+    width: 354px;
     height: 100vh;
     /* height: 394px; */
     padding-left: 8px;
@@ -271,9 +271,9 @@ nav{
     height:100vh;
     max-width: 600px;
     padding: 0px 16px;
-    overflow: hidden;
+    /* overflow: hidden;
     overflow-y: scroll;
-  
+   */
 }
 .post{
     width: 100%;
@@ -360,7 +360,13 @@ nav{
     margin: auto;
 }
 .profile-name{
-    max-width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.verified-account div{
+    
 }
 .nametag{
      color: rgb(83, 100, 113);
@@ -407,6 +413,9 @@ nav{
 .profile-bubble{
     height: 140px;
     width: 100%;
+
+    display: flex;
+    align-items: end;
    
 }
 .bubble{
@@ -574,6 +583,10 @@ nav{
     border-bottom-style: solid;
     border-bottom-width: 1px; */
 } 
+
+.side-bar >div{
+   height: 100vh;  
+}
 .search-bar svg{
 
     height: 18px;
@@ -633,6 +646,16 @@ nav{
     color: rgba(15,20,25,1.00);
 }
 
+
+.main-content{
+    
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    position: relative;
+}
 @media only screen and (max-width: 500px) {
     .nav,.create-post,.side-bar,.s,.gear-icon{
         display: none;
