@@ -656,6 +656,9 @@ nav{
 
     position: relative;
 }
+
+
+
 @media only screen and (max-width: 500px) {
     .nav,.create-post,.side-bar,.s,.gear-icon{
         display: none;
